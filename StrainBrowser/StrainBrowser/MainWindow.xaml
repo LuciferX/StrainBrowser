@@ -1,0 +1,32 @@
+﻿<Window x:Class="StrainBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Strain Browser" Height="768" Width="1024" Loaded="Window_Loaded" Icon="Marijuana.ico" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ListBox x:Name="BreederListBox" HorizontalAlignment="Left" Height="696" Margin="10,10,0,0" VerticalAlignment="Top" Width="200"/>
+        <ListBox x:Name="StrainListBox" HorizontalAlignment="Left" Height="696" Margin="226,10,0,0" VerticalAlignment="Top" Width="200"/>
+        <Image x:Name="ImageObject" HorizontalAlignment="Left" Height="385" Margin="706,10,0,0" VerticalAlignment="Top" Width="300" MouseDown="ImageObject_MouseDown"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,19,0,0" TextWrapping="Wrap" Text="Breeder" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,39,0,0" TextWrapping="Wrap" Text="Strain" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,61,0,0" TextWrapping="Wrap" Text="Type" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,81,0,0" TextWrapping="Wrap" Text="Days" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,103,0,0" TextWrapping="Wrap" Text="Auto" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,123,0,0" TextWrapping="Wrap" Text="Desc" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,375,0,0" TextWrapping="Wrap" Text="Info" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="492,19,0,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBlock2" HorizontalAlignment="Left" Margin="492,39,0,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBlock3" HorizontalAlignment="Left" Margin="492,61,0,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBlock5" HorizontalAlignment="Left" Margin="492,103,0,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBlock6" HorizontalAlignment="Left" Margin="492,123,0,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBlock4" HorizontalAlignment="Left" Margin="492,81,0,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top"/>
+        <TextBlock x:Name="picpath" HorizontalAlignment="Left" Margin="10,711,0,0" TextWrapping="Wrap" Text="NULL" VerticalAlignment="Top" Foreground="#FF0425F9" MouseDown="picpath_MouseDown"/>
+        <RichTextBox x:Name="InfoRTB" HorizontalAlignment="Left" Height="306" Margin="442,400,0,0" VerticalAlignment="Top" Width="564">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+     
+    </Grid>
+</Window>

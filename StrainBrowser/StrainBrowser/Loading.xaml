@@ -1,0 +1,9 @@
+﻿<Window x:Class="StrainBrowser.Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:control="clr-namespace:LoadingControl.Control"
+        Title="Loading" Height="144" Width="132" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" WindowStyle="None" ShowInTaskbar="False" Topmost="True">
+    <Grid>
+        <control:LoadingAnimation Margin="16,10,110,105"/>
+    </Grid>
+</Window>
